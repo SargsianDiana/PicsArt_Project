@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>PicsArt Project</title>
+</head>
+
+<body>
+    <div class="ourFlagsDiv">
+        <div class="flags" id='flags'>
+                <div class="flagDetails"></div>
+        </div>
+        <div class="info" id='info'>
+            <div class="infoDataCont" id="infoDataCont">
+                <button onclick="deleteButtons(), showGif()">Information about country</button>
+                <button onclick="deleteButtons(), showGif()">Plane in the air</button>
+                <button onclick="deleteButtons(), showGif()">Information about covid-19</button>
+                <button onclick="deleteButtons(), showGif()">Time</button>
+            </div>
+        </div>
+    </div>
+    <script src='./ShowGif.js'></script>
+    <script src='./DeleteButtons.js'></script>
+    <script src='./GetAllCountries.js'></script>
+</body>
+
+</html>
